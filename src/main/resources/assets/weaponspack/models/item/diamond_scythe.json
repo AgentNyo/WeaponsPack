@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:item/generated",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 45 ],
+            "translation": [ 0, 7, -0.8 ],
+            "scale": [ 1.5, 1.5, 0.5 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, -45 ],
+            "translation": [ 0, 7, -0.8 ],
+            "scale": [ 1.5, 1.5, 0.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 3.2, 1.13 ],
+            "scale": [ 1.1, 1.1, 0.7 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 1.13, 3.2, 1.13 ],
+            "scale": [ 1.1, 1.1, 0.7 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 263 ],
+            "translation": [2, 2, 0],
+            "scale": [1.5, 1.5, 0.5]
+        }
+        
+        },
+    "textures": {
+        "layer0": "weaponspack:item/diamond_scythe"
+    }
+}
