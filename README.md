@@ -7,7 +7,7 @@ Includes the Deathsinger's Sword and Tidesinger's Staff from Songs Of War among 
 https://www.youtube.com/watch?v=yCNUP2NAt-A Songs Of War by Black Plasma Studios
 
 
-## Recommended mods here VVVVV
+## Recommended Mods:
 
 Better Combat by daedelus: https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
 Better Combat reqs Cloth Config and Player animator, linked here: 
@@ -19,7 +19,7 @@ compatible with vanilla and Yung's Dungeons/Strongholds. _Make sure you install 
  if you want to add more mod compatibility then do it youself with a datapack its not that hard... well it is but whatever
 
 
-## Description
+## Description:
 
 This is my (Nyo's) first mod, created mostly from looking at other mods and using the fabric wiki https://fabricmc.net/wiki
 
@@ -52,10 +52,9 @@ Creator of Loot Integrations for saving my sanity <3
 
 Textures are from Songs Of War by Black Plasma Studios, credit to them for 90% of this pack's items
 
-Some weapons are from Terraria by ReLogic, by a friend's request
+Some weapons are from Terraria by ReLogic, by a friend's behest
 
 And the remaining textures are found on NovaSkin, a minecraft texture site. On there stuff gets passed around a lot
-
 so some of the textures including the Crucible and Lightsaber have no obvious origin or creator, 
 
 although if the real creator wants me to remove anything they own **please let me know**
