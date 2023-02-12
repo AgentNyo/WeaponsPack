@@ -1,5 +1,6 @@
 # Nyo's Weapons Pack
 
+https://www.curseforge.com/minecraft/mc-mods/weapons-pack
 **A fabric mod for Minecraft Java Edition 1.19.2 containing over 50 unique* weapons designed to work with the Better Combat mod**
 
 Includes the Deathsinger's Sword and Tidesinger's Staff from Songs Of War among other weapons from the series too
