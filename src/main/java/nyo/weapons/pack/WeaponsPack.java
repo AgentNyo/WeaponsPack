@@ -112,7 +112,7 @@ public class WeaponsPack implements ModInitializer {
 
 	public static final ToolItem HYPERION = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
 	public static final ToolItem LIGHTSABER = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
-	public static final ToolItem CRUCIBLE = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
+	public static final ToolItem CRUCIBLE = new SwordItem(special.INSTANCE, 12, -2.60F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
 	public static final ToolItem ZENITH = new SwordItem(special.INSTANCE, 14, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
 	public static final ToolItem TERRABLADE = new SwordItem(special.INSTANCE, 13, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));
 	public static final ToolItem STARWRATH = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC).group(SPECIAL));

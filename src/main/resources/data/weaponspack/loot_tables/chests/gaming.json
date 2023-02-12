@@ -1,0 +1,235 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": {
+            "min": 0,
+            "max": 1
+          },
+          "max": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:diamond_halberd"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:iron_halberd"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:stone_halberd"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:diamond_battleaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_battleaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:iron_greataxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:diamond_ardoni_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:iron_ardoni_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:diamond_forked_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_forked_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:diamond_hook"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:iron_hook"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:diamond_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:voltaris_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:ria_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "weaponspack:iron_spear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_glaive"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "weaponspack:honorguard_diamond_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "weaponspack:honorguard_iron_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:honorguard_gold_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:thin_iron_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:thin_diamond_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:diamond_cutlass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "weaponspack:diamond_broadsword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "weaponspack:iron_broadsword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_scimitar"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "weaponspack:iron_kukuri"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_guard_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:iron_claymore"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "weaponspack:tygren_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "weaponspack:sendaris_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "weaponspack:kaltaris_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "weaponspack:mendoris_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "weaponspack:nestoris_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "weaponspack:voltaris_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "weaponspack:deathsinger_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "weaponspack:tidesinger_staff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "weaponspack:iron_katana"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "weaponspack:diamond_katana"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:iron_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "weaponspack:diamond_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "weaponspack:double_bladed_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "weaponspack:double_ended_staff"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -28,5 +28,8 @@
 	},
 	"suggests": {
 		"bettercombat": ">=1.5.5+1.19"
+	},
+	"recommends": {
+		"lootintegrations": ">=1.19.1-1.7"
 	}
 }
