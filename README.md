@@ -10,12 +10,16 @@ https://www.youtube.com/watch?v=yCNUP2NAt-A Songs Of War by Black Plasma Studios
 ## Recommended Mods:
 
 Better Combat by daedelus: https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
-Better Combat reqs Cloth Config and Player animator, linked here: 
+
+Better Combat reqs Cloth Config and Player animator, linked here:
+
 https://www.curseforge.com/minecraft/mc-mods/cloth-config 
 https://www.curseforge.com/minecraft/mc-mods/playeranimator
 
-Also requires Loot Integrations https://www.curseforge.com/minecraft/mc-mods/loot-integrations to naturally spawn weapons in loot chests, 
+Also requires Loot Integrations https://www.curseforge.com/minecraft/mc-mods/loot-integrations to naturally spawn weapons in loot chests,
+
 compatible with vanilla and Yung's Dungeons/Strongholds. _Make sure you install the fabric version!_
+
  if you want to add more mod compatibility then do it youself with a datapack its not that hard... well it is but whatever
 
 
