@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "weaponspack",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"name": "Nyo's Weapons Pack",
 	"description": "Selection of weapons (not mine) that I programmed (or at least tried to)",
 	"authors": [
@@ -21,7 +21,7 @@
 		"weaponspack.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.14",
+		"fabricloader": ">=0.14.13",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"
