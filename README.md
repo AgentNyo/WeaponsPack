@@ -1,4 +1,4 @@
-Nyo's Weapons Pack
+# Nyo's Weapons Pack
 
 **A fabric mod for Minecraft Java Edition 1.19.2 containing over 50 unique* weapons designed to work with the Better Combat mod**
 
@@ -7,14 +7,16 @@ Includes the Deathsinger's Sword and Tidesinger's Staff from Songs Of War among 
 https://www.youtube.com/watch?v=yCNUP2NAt-A Songs Of War by Black Plasma Studios
 
 
+## Recommended mods here VVVVV
 
-**Recommended mods here VVVVV**
 Better Combat by daedelus: https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
 Better Combat reqs Cloth Config and Player animator, linked here: https://www.curseforge.com/minecraft/mc-mods/cloth-config https://www.curseforge.com/minecraft/mc-mods/playeranimator
 
 Also requires Loot Integrations https://www.curseforge.com/minecraft/mc-mods/loot-integrations to naturally spawn weapons in loot chests, compatible with vanilla and Yung's Dungeons/Strongholds. _Make sure you install the fabric version!_
  if you want to add more mod compatibility then do it youself with a datapack its not that hard... well it is but whatever
 
+
+## Description
 
 This is my (Nyo's) first mod, created mostly from looking at other mods and using the fabric wiki https://fabricmc.net/wiki
 
@@ -23,7 +25,8 @@ The mod was designed for a private modded server.
 Don't expect any updates or anything though, its quite unlikely but if there is demand i might try figure out how to update the mod
 
 
-**Requirements:**
+## Requirements:
+
 Fabric loader and Fabric API for 1.19.2 is 100% required.
 
 If you want it to be playable in survival you'll need Loot Integrations (linked above), i'd add it either way. Loot Integrations only needs to be installed server side.
@@ -36,7 +39,8 @@ _Weapons scale fine with BackSlot mod, but they can be worn on the belt, even th
 oh and you should prob own a copy of minecraft java too :|
 
 
-**Credit:**
+## Credit:
+
 Fabric, and Minecraft for existing
 Creator of Loot Integrations for saving my sanity <3
 Textures are from Songs Of War by Black Plasma Studios, credit to them for 90% of this pack's items
