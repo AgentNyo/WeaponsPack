@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=yCNUP2NAt-A Songs Of War by Black Plasma Studios
 
 Better Combat by daedelus:
 https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
+
 Better Combat reqs Cloth Config and Player animator, linked here:
 https://www.curseforge.com/minecraft/mc-mods/cloth-config
 https://www.curseforge.com/minecraft/mc-mods/playeranimator
