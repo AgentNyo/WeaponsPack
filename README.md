@@ -1,5 +1,7 @@
 # Nyo's Weapons Pack
 
+(pending, i need to work on this and other mods again)
+
 https://www.curseforge.com/minecraft/mc-mods/weapons-pack
 **A fabric mod for Minecraft Java Edition 1.19.2 containing over 50 unique* weapons designed to work with the Better Combat mod**
 
