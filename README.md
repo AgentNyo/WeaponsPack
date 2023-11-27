@@ -36,7 +36,8 @@ For colored enchantments (like in songs of war) -
 Enchant the Rainbow: (very good mod) https://modrinth.com/mod/enchant-the-rainbow 
 
 For making the weapons spawn in survival loot chests -
-Loot Integrations https://www.curseforge.com/minecraft/mc-mods/loot-integrations  
+Loot Integrations https://www.curseforge.com/minecraft/mc-mods/loot-integrations 
+which requires Cupboard (https://www.curseforge.com/minecraft/mc-mods/cupboard)
 (could not find a modrinth version, but there may be alternatives out there)
 
 Compatible with vanilla chests and Yung's Better Dungeons/Strongholds, you can add compatibility with other mod loot yourself using datapacks!
