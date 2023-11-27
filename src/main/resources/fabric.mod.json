@@ -21,15 +21,15 @@
 		"weaponspack.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.13",
-		"minecraft": "~1.19.2",
+		"fabricloader": ">=0.14.14",
+		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"bettercombat": ">=1.5.5+1.19"
+		"bettercombat": ">=1.7.1+1.20.1"
 	},
 	"recommends": {
-		"lootintegrations": ">=1.19.1-1.7"
+		"lootintegrations": ">=1.20.1-3.1"
 	}
 }
