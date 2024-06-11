@@ -1,6 +1,6 @@
 {
     "loot_table": "weaponspack:chests/gaming",
-    "max_result_itemcount": 15,
+    "max_result_itemcount": 100,
     "integrated_loot_tables": {
         "minecraft:chests/village/village_toolsmith": 3,
         "minecraft:chests/village/village_weaponsmith": 3,
