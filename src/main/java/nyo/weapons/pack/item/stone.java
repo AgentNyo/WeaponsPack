@@ -1,5 +1,6 @@
 package nyo.weapons.pack.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -24,7 +25,7 @@ public class stone implements ToolMaterial{
 
     @Override
     public Ingredient getRepairIngredient() {
-    return Ingredient.ofItems();
+    return Ingredient.ofItems(Items.COBBLESTONE);
     }
 
     @Override

@@ -6,7 +6,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -27,33 +26,26 @@ import nyo.weapons.pack.item.stone;
 import nyo.weapons.pack.item.tidesinger_staff;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 //Credit where credit is due, I did not create ANY art for this (although i edited some textures slightly) and all the
-//textures are from Songs Of War by Black Plasma Studios https://www.youtube.com/watch?v=yCNUP2NAt-A its very good please watch, 
+//textures are from Songs Of War by Black Plasma Studios https://www.youtube.com/watch?v=yCNUP2NAt-A (very good watch),
 //Terraria (by ReLogic) or from the site NovaSkin, although things get passed around a lot on there like the
 //crucible sword and lightsaber textures idk who is the original owner, if they have any problems let me know :)
 
 //this is the first mod i've made so please excuse me for any errors or slipups, i designed Weapons Pack for a private
 //server so it's not incredible or anything lol
 
-//oh and don't expect too many updates since i dont even know how to update it.. although i guess i can learn if there is demand XD
-
 public class WeaponsPack implements ModInitializer {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("weaponspack");
 
-	private static void accept(ItemGroup.DisplayContext displayContext, ItemGroup.Entries entries) {
-		entries.add(QUARTER_DIAMOND);
-	}
-
 	public static final Item GROUPICON = new Item(new Item.Settings());
 	public static final Item SPECIALICON = new Item(new Item.Settings());
 
-	public static final Item QUARTER_DIAMOND = new Item(new Item.Settings());
+	//Items begin
 	public static final SwordItem TIDESINGER_STAFF = new SwordItem(tidesinger_staff.INSTANCE, 5, -1.9F, new Item.Settings().rarity(Rarity.UNCOMMON));
 	public static final SwordItem DOUBLE_BLADED_SWORD = new SwordItem(double_blade.INSTANCE, 4, -2.1F, new Item.Settings());
 	public static final SwordItem DOUBLE_ENDED_STAFF = new SwordItem(double_blade.INSTANCE, 5, -2.6F, new Item.Settings());
@@ -116,12 +108,11 @@ public class WeaponsPack implements ModInitializer {
 	public static final SwordItem NIGHTSEDGE = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC));
 	public static final SwordItem MEOWMERE = new SwordItem(special.INSTANCE, 12, -2.45F, new Item.Settings().fireproof().rarity(Rarity.EPIC));
 
+	//Build weapons tab
 	public static final ItemGroup GROUP = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(GROUPICON))
 			.displayName(Text.translatable("itemGroup.weaponspack.group"))
 			.entries((displayContext, entries) -> {
-                entries.add(QUARTER_DIAMOND);
-
 				entries.add(TIDESINGER_STAFF);
 				entries.add(DOUBLE_BLADED_SWORD);
 				entries.add(DOUBLE_ENDED_STAFF);
@@ -175,6 +166,7 @@ public class WeaponsPack implements ModInitializer {
             })
 			.build();
 
+	//Build Special Weapons tab
 	public static final ItemGroup SPECIAL = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(SPECIALICON))
 			.displayName(Text.translatable("itemGroup.weaponspack.special"))
@@ -191,10 +183,39 @@ public class WeaponsPack implements ModInitializer {
 			}))
 			.build();
 
+	//Chests/loot tables to add to
+    private static final Identifier TEMPLE_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/jungle_temple");
+    private static final Identifier TREASURE_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/buried_treasure");
+    private static final Identifier OUTPOST_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/pillager_outpost");
+	private static final Identifier BASTION_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/bastion_treasure");
+	private static final Identifier ANCIENT_CITY_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/ancient_city");
+	private static final Identifier END_CITY_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/end_city_treasure");
+	private static final Identifier SHIP_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/shipwreck_treasure");
+	private static final Identifier RUIN_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/underwater_ruin_big");
+	private static final Identifier MANSION_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/woodland_mansion");
+	private static final Identifier PORTAL_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/ruined_portal");
+    private static final Identifier STRONGHOLD_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/stronghold_corridor");
+    private static final Identifier TOOLSMITH_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/village/village_toolsmith");
+	private static final Identifier WEAPONSMITH_CHEST_LOOT_TABLE_ID = new Identifier("minecraft:chests/village/village_weaponsmith");
+	
+	private static final Identifier BD_SKE_COMMON_CHEST_LOOT_TABLE_ID = new Identifier("betterdungeons:skeleton_dungeon/chests/common");
+	private static final Identifier BD_SKE_MIDDLE_CHEST_LOOT_TABLE_ID = new Identifier("betterdungeons:skeleton_dungeon/chests/middle");
+	private static final Identifier BD_SPD_EGG_CHEST_LOOT_TABLE_ID = new Identifier("betterdungeons:spider_dungeon/chests/egg_room");
+	private static final Identifier BD_ZOM_COMMON_CHEST_LOOT_TABLE_ID = new Identifier("betterdungeons:zombie_dungeon/chests/common");
+
+	private static final Identifier BS_CRYPT_CHEST_LOOT_TABLE_ID = new Identifier("betterstrongholds:chests/crypt");
+	private static final Identifier BS_COMMON_CHEST_LOOT_TABLE_ID = new Identifier("betterstrongholds:chests/common");
+	private static final Identifier BS_ARMOURY_CHEST_LOOT_TABLE_ID = new Identifier("betterstrongholds:chests/armoury");
+
+	private static final Identifier BN_HIVE_CHEST_LOOT_TABLE_ID = new Identifier("betternether:chests/ghast_hive");
+
+
+	
+
 	@Override
 	public void onInitialize() {
-
-		Registry.register(Registries.ITEM, new Identifier("weaponspack", "quarter_diamond"), QUARTER_DIAMOND);
+		
+		//Begin Registry
 		Registry.register(Registries.ITEM, new Identifier("weaponspack", "tidesinger_staff"), TIDESINGER_STAFF);
 		Registry.register(Registries.ITEM, new Identifier("weaponspack", "groupicon"), GROUPICON);
 		Registry.register(Registries.ITEM, new Identifier("weaponspack", "specialicon"), SPECIALICON);
@@ -260,11 +281,9 @@ public class WeaponsPack implements ModInitializer {
 		Registry.register(Registries.ITEM_GROUP, new Identifier("weaponspack", "group"), GROUP);
 		Registry.register(Registries.ITEM_GROUP, new Identifier("weaponspack", "special"), SPECIAL);
 
-		LOGGER.info("Among Us!!! Sussy!!!!");
+		LOGGER.info("WeaponsPack initialised successfully!!");
 	}
 }
 
 //i love the fabric wiki <3
-
-//well except when it doesnt help much at all and you have to spend hours going through google in order to find that
-//the problem was like idk a dorito stuck in your code
+//ok maybe the relationship is a bit rough sometimes but all is fine

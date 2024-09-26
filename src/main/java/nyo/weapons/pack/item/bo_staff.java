@@ -25,7 +25,7 @@ public class bo_staff implements ToolMaterial{
 
     @Override
     public Ingredient getRepairIngredient() {
-    return Ingredient.ofItems(Items.DIAMOND);
+    return Ingredient.ofItems(Items.STICK);
     }
 
     @Override
